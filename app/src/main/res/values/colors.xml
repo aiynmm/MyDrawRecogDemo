@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="attr_color">#331f61</color>
+    <color name="upload_back_color">#88989998</color>
+    <color name="bottom_back_color">#dc101010</color>
+
+    <color name="mask_color">#871b1b1b</color>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sinosoft.mydrawrectdemo.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/take_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="拍照" />
+
+            <Button
+                android:id="@+id/like_baidu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="仿百度翻译"/>
+
+            <Button
+                android:id="@+id/crop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自带裁剪"/>
+            <Button
+                android:id="@+id/ucrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ucrop裁剪"/>
+            <Button
+                android:id="@+id/image_crop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Image_crop裁剪"/>
+
+            <Button
+                android:id="@+id/recognise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="本地识别"/>
+
+            <Button
+                android:id="@+id/cloud_recognise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="云端识别"/>
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"/>
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
